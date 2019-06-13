@@ -225,9 +225,7 @@ function fetch_new_rules() {
 }
 
 function fetch_new_rules_callback(callback_data) {
-	if (isPaused) {
-		return;
-	}
+
 
 	var data_split;
 	var new_data_to_add = Array();
